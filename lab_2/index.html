@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Верстка форм</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+	<form>
+		<div class="rec1"></div>
+		<div class="rec5">
+			<label for="city">city</label>
+			<select name="city">
+				<option value="1">Архангельск</option>
+				<option value="2">Северодвинск</option>
+				<option value="3">Новодвинск</option>
+				<option value="4">Другое</option>
+			</select>
+		</div>
+		<div class="rec3">
+		<button type="button" class="button1">Отмена<button>
+		</div>
+		<div class="rec4">
+		<button type="button" class="button2">Сохранить<button>
+		</div>
+		<div class="box1">
+			<input class="boxinput" type="text" required placeholder="Введите имя">
+			<div class="ass_mes">Введите своё настоящее имя</div>
+		</div>
+		<div class="box2">
+			<input class="boxinput" type="password" required minlength="4" maxlength="12" placeholder="Введите пароль">
+			<div class="ass_mes">Пароль должен содержать от 4 до 12 символов</div>
+			<div class="error_mes">Введены невалидные данные</div>
+		</div>
+		<div class="box3">
+			<input class="boxinput" type="email" required placeholder="Введите адрес электронной почты">
+			<div class="ass_mes">Пример: example@gmail.com</div>
+			<div class="error_mes">Введены невалидные данные</div>
+		</div>
+		<div class ="first1">Имя пользователя</div>
+		<div class ="first2">Пароль</div>
+		<div class ="first3">Email</div>
+		<div class ="first4">В каком городе Архангельской области вы сейчас проживаете</div>
+				<div class="checkbox">
+			<input type="checkbox" id="check1">
+			<label for="check1">check1</label>
+		</div>
+		<div class ="third1">Подписаться на еженедельную рассылку</div>
+		<div class="switch">
+			<input type="checkbox" id="switch">
+			<label for="switch">Toggle</label>
+		</div>
+		<div class ="third2">Оповещения от сайта в браузере</div>
+		<div class="rec2">
+			<div class="form_radio">
+				<input id="radio-1" type="radio" name="radio" value="1">
+				<label for="radio-1">Radio button 1</label>
+			</div>
+			<div class="form_radio">
+				<input id="radio-2" type="radio" name="radio" value="2">
+				<label for="radio-2">Radio button 2</label>
+			</div>
+			<div class="form_radio">
+				<input id="radio-3" type="radio" name="radio" value="3">
+				<label for="radio-3">Radio button 3</label>
+			</div>
+		</div>
+		<div class ="third3">Преподаватель</div>
+		<div class ="third4">Студент</div>
+		<div class ="third5">Абитуриент</div>
+	</form>
+  </body>

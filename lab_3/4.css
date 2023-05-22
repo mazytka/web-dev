@@ -1,0 +1,133 @@
+
+body {
+    height: 95vh;
+}
+@media screen and (min-width:600px){
+    n {
+        width: 110px;
+        height: 30px;
+        font-size:100px;
+        top: 30%;
+        position:relative;
+    }
+	.rec1 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 100%;
+		height: 95%;
+		background: #FFFFFF;
+	}
+	.box1 {
+		width: 100%;
+		height: 25%;
+		background: #CCCCCC;
+		text-align: center;
+        border-radius: 16px;
+		border: 3px solid blue;
+	}
+	.box2 {
+		flex-basis: 1360px;
+		height: 30%;
+		background: #CCCCCC;
+		text-align: center;
+        border-radius: 16px;
+		border: 3px solid blue;
+        margin-right: 15px;
+	}
+	.box3 {
+		
+        width: 24%;
+		height: 30%;
+		background: #CCCCCC;
+		text-align: center;
+        border-radius: 16px;
+		border: 3px solid blue;
+	}
+	.box4 {
+        flex-basis: 400px;
+		height: 30%;
+		background: #CCCCCC;
+		text-align: center;
+        border-radius: 16px;
+		border: 3px solid blue;
+		margin-right: 15px;
+	}
+	.box5 {
+		width: 75%;
+		height: 30%;
+		background: #CCCCCC;
+		text-align: center;
+        border-radius: 16px;
+		border: 3px solid blue;
+	}
+}
+@media screen and (max-width:600px){
+    n {
+        width: 110px;
+        height: 30px;
+        font-size:59px;
+        top: 20%;
+        position:relative;
+    }
+	.rec1 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 100%;
+		height: 100%;
+		background: #FFFFFF;
+		
+	}
+	.box1 {
+		flex-basis: 100%;
+		height: 19%;
+		background: #CCCCCC;
+		text-align: center;
+        border-radius: 16px;
+		border: 3px solid blue;
+        margin-bottom: 15px;
+	}
+	.box2 {
+		flex-basis: 100%;
+		height: 19%;
+		background: #CCCCCC;
+        text-align: center;
+        border-radius: 16px;
+		border: 3px solid blue;
+        margin-bottom: 15px;
+	}
+
+	.box3 {
+		flex-basis: 100%;
+		height: 19%;
+		background: #CCCCCC;
+		text-align: center;
+        border-radius: 16px;
+		border: 3px solid blue;
+        margin-bottom: 15px;
+	}
+	.box4 {
+		flex: 1;
+		height: 19%;
+		background: #CCCCCC;
+		text-align: center;
+        border-radius: 16px;
+		border: 3px solid blue;
+        margin-bottom: 15px;
+        margin-right: 30px;
+	}
+	.box5 {
+		flex: 1;
+		height: 19%;
+		background: #CCCCCC;
+		text-align: center;
+        border-radius: 16px;
+		border: 3px solid blue;
+        margin-bottom: 15px;
+	}
+}

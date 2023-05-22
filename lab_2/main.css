@@ -1,0 +1,463 @@
+form {
+	position: relative;
+	width: 1600px;
+	height: 1200px;
+	background: #e4defe;
+}
+.rec1 {
+	position: absolute;
+	width: 760px;
+	height: 1200px;
+	left: 420px;
+	top: 0px;
+	background: #FFFFFF;
+}
+.rec2 {
+	position: absolute;
+	left: 518px;
+	top: 602px;
+	width: 564px;
+	height: 136px;
+	background: rgba(122, 92, 250, 0.1);
+	border-radius: 10px;
+}
+.rec3 {
+	position: absolute;
+	left: 518px;
+	top: 884px;
+	width: 172px;
+	height: 56px;
+}
+.rec4 {
+	position: absolute;
+	left: 910px;
+	top: 884px;
+	width: 172px;
+	height: 56px;
+	background: #7A5CFA;
+	border-radius: 8px;
+}
+.rec5 {
+	position:absolute;
+	top: 770px;
+	left: 518px;
+	width: 564px;
+	height: 56px;
+}
+.button1 {
+	position: absolute;
+	width: 172px;
+	height: 56px;
+	background: #FFFFFF;
+	border: 1px solid #7A5CFA;
+	border-radius: 8px;
+	color:#7A5CFA;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+.button2 {
+	position: absolute;
+	width: 172px;
+	height: 56px;
+	background: #7A5CFA;
+	border: 1px solid #7A5CFA;
+	border-radius: 8px;
+	color:#FFFFFF;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+.button1:active, .button2:active {
+	background: #E4DEFE;
+	color:#7A5CFA;
+}
+.button1:focus, .button2:focus {
+	outline: #7A5CFA auto 1px;
+}
+.boxinput {
+	height: 100%;
+	width: 100%;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	text-indent: 16px;
+	border-radius: 8px;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	outline: none;
+	display:grid;
+}
+.ass_mes {
+	width: 100%;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: #666666;
+	visibility: visible;
+	position: absolute;
+}
+.error_mes{
+	width: 100%;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: #EB5757;
+	visibility: hidden;
+	position: absolute;
+}
+.boxinput:invalid:not(:placeholder-shown):not(:focus) {
+	border: 2px solid #EB5757;
+	background: url("notok.png") no-repeat;
+	background-position: 500px 12px;
+	background-size: 33px;
+	
+}
+.boxinput:invalid:not(:placeholder-shown):not(:focus)~
+.ass_mes {
+	visibility: hidden;
+	}
+.boxinput:invalid:not(:placeholder-shown):not(:focus)~
+.error_mes {
+	visibility: visible;
+	}
+
+.boxinput:valid:not(:placeholder-shown):not(:focus) {
+	border: 2px solid #1FBC86;
+	background: url("ok.png") no-repeat;
+	background-position: 500px 12px;
+	background-size: 33px;
+}
+.boxinput:valid:not(:placeholder-shown):not(:focus)~
+.ass_mes {
+	visibility: hidden;
+	}
+.boxinput:focus {
+	border: 2px solid #7A5CFA;
+	background: #FFFFFF;
+}
+.box1 {
+	box-sizing: border-box;
+	position: absolute;
+	width: 564px;
+	height: 56px;
+	left: 518px;
+	top: 122px;
+	background: #FFFFFF;
+	border: none;
+}
+.box2 {
+	box-sizing: border-box;
+	position: absolute;
+	width: 564px;
+	height: 56px;
+	left: 518px;
+	top: 236px;
+	background: #FFFFFF;
+	border: 0px;
+	border-radius: 8px;
+}
+.box3 { 
+	box-sizing: border-box;
+	position: absolute;
+	width: 564px;
+	height: 56px;
+	left: 518px;
+	top: 376px;
+	background: #FFFFFF;
+	border: 0px;
+	border-radius: 8px;
+}
+.first1 {
+	position: absolute;
+	width: 564px;
+	height: 18px;
+	left: 518px;
+	top: 96px;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	color: #666666;
+}
+.first2 {
+	position: absolute;
+	width: 564px;
+	height: 18px;
+	left: 518px;
+	top: 210px;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	color: #666666;
+}
+.first3 {
+	position: absolute;
+	width: 564px;
+	height: 18px;
+	left: 518px;
+	top: 350px;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	color: #666666;
+}
+.first4 {
+	position: absolute;
+	width: 564px;
+	height: 18px;
+	left: 518px;
+	top: 770px;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	color: #666666;
+}
+.third1{
+	position: absolute;
+	left: 558px;
+	top: 490px;
+	width: 524px;
+	height: 24px;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+}
+.third2{
+	position: absolute;
+	left: 583px;
+	top: 546px;
+	width: 303px;
+	height: 24px;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+}
+.third3{
+	position: absolute;
+	left: 558px;
+	top: 602px;
+	width: 524px;
+	height: 24px;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+}
+.third4{
+	position: absolute;
+	left: 558px;
+	top: 658px;
+	width: 524px;
+	height: 24px;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+}
+.third5{
+	position: absolute;
+	left: 558px;
+	top: 714px;
+	width: 524px;
+	height: 24px;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+}
+label {
+	visibility:hidden;
+}
+.checkbox input[type ="checkbox"] {
+	opacity: 0;
+	position: absolute;
+}
+.checkbox {
+	box-sizing: border-box;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 518px;
+	top: 489px;
+}
+.checkbox label::before {
+	content:"";
+	visibility:visible;
+	position:absolute;
+	width: 24px;
+	height: 24px;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 8px;
+}
+.checkbox label::after {
+	content:"";
+	visibility:visible;
+	position: absolute;
+	height: 9px;
+    width: 15px;
+	left: 5px;
+	top: 5px;
+	border-left: 2px solid #7A5CFA;
+    border-bottom: 2px solid #7A5CFA;
+	transform: rotate(-45deg);
+}
+
+.checkbox input[type="checkbox"] + label::after {
+    content: none;
+}
+.checkbox input[type="checkbox"]:checked + label::after {
+    content: "";
+}
+.checkbox input[type="checkbox"]:focus + label::before {
+    outline: #7A5CFA auto 1px;
+}
+.form_radio {
+	margin-bottom: 37px;
+	margin-left: 0px;
+}
+.form_radio input[type="radio"] {
+	opacity: 0;
+	position: absolute;
+}
+.form_radio label::before {
+	content:"";
+	visibility:visible;
+	position:absolute;
+	width: 24px;
+	height: 24px;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 50%;
+}
+.form_radio label::after {
+	content:"";
+	position: absolute;
+	visibility:visible;
+	left: 7px;
+	margin-top: 7px;
+	height: 12px;
+    width: 12px;
+	background: #7A5CFA;
+	border-radius: 100%;
+}
+.form_radio input[type="radio"] ~ label::after {
+    content: none;
+}
+.form_radio input[type="radio"]:checked ~ label::after {
+    content: "";
+}
+.form_radio input[type="radio"]:focus ~ label::before {
+    outline: #7A5CFA auto 1px;
+}
+.switch {
+	box-sizing: border-box;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 518px;
+	top: 546px;
+}
+.switch input[type ="checkbox"] {
+	opacity: 0;
+	position: absolute;
+}
+
+.switch label {
+	visibility: visible;
+	text-indent: -9999px;
+	width: 49px;
+	height: 24px;
+	background: #FFFFFF;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+	border: 1px solid #CCCCCC
+}
+.switch label:after {
+	content: '';
+	visibility: visible;
+	position: absolute;
+	top: 2px;
+	left: 25px;
+	width: 18px;
+	height: 18px;
+	background: #F4F4F4;
+	border: 1px solid #CCCCCC;
+	border-radius: 100%;
+	transition: 0.3s;
+}
+.switch input:checked ~ label {
+  background: #7A5CFA;
+}
+
+.switch input:checked ~ label:after {
+  right: calc(100% - 5px);
+  transform: translateX(-100%);
+  border:#FFFFFF;
+  background: #FFFFFF;
+}
+.switch input:focus ~ label {
+    border: 1px solid #7A5CFA;
+}
+select {
+	width: 100%;
+	height: 100%;
+	appearance: none;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+	border: 1px solid #CCCCCC;
+	border-radius: 8px;
+	background: url("down.png") no-repeat;
+	background-position: 520px 14px;
+	background-size: 33px;
+	padding-left: 16px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+select option:checked {
+	background: #7A5CFA;
+	color: #FFFFFF;
+   }
+select:focus {
+	outline: #7A5CFA auto 1px;
+}
+select:focus{
+	background: url("up.png") no-repeat;
+	background-position: 520px 14px;
+	background-size: 33px;
+}
