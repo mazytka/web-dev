@@ -1,0 +1,156 @@
+n {
+	width: 110px;
+	height: 30px;
+	font-size:30px;
+	top: 50%;
+	position:relative;
+}
+body {
+    height: 95vh;
+}
+
+.box {
+	border: 3px solid blue
+}
+@media screen and (min-width:1024px){
+	.rec1 {
+	display: grid;
+		grid-template-columns: 1fr 2fr 1fr;
+		grid-auto-rows: 1fr 1fr 2fr 1fr;
+		grid-gap: 15px;
+		grid-template-areas:
+			"header header header"
+			"contentC contentB contentE"
+			"contentC contentD contentE"
+			"contentF contentF contentF";
+		width: 100%;
+		height: 95%;
+		background: #FFFFFF;
+	}
+	.box1 {
+		grid-area: header;
+		background: #CCCCCC;
+		text-align: center;
+	}
+	.box2 {
+		grid-area: contentB;
+		background: #CCCCCC;
+		text-align: center;
+	}
+	.box3 {
+		grid-area: contentC;
+		background: #CCCCCC;
+		text-align: center;
+	}
+	.box4 {
+		grid-area: contentD;
+		background: #CCCCCC;
+		text-align: center;
+
+	}
+	.box5 {
+		grid-area: contentE;
+		background: #CCCCCC;
+		text-align: center;
+	}
+	.box6 {
+		grid-area: contentF;
+		background: #CCCCCC;
+		text-align: center;
+	}
+}
+@media screen and (min-width:600px) and (max-width:1024px){
+	.rec1 { 
+	display: grid;
+		grid-template-columns: 1fr 3fr;
+		grid-auto-rows: 1fr 1fr 2fr 1fr;
+		grid-gap: 15px;
+		grid-template-areas:
+			"header header"
+			"contentB contentB"
+			"contentC contentD"
+			"contentE contentF";
+		width: 100%;
+		height: 95%;
+		background: #FFFFFF;
+	}
+	.box1 {
+		grid-area: header;
+		background: #CCCCCC;
+		text-align: center;
+	}
+	.box2 {
+		grid-area: contentB;
+		background: #CCCCCC;
+		text-align: center;
+	}
+	.box3 {
+		grid-area: contentC;
+		background: #CCCCCC;
+		text-align: center;
+	}
+	.box4 {
+		grid-area: contentD;
+		background: #CCCCCC;
+		text-align: center;
+	}
+	.box5 {
+		grid-area: contentE;
+		background: #CCCCCC;
+		text-align: center;
+	}
+	.box6 {
+		grid-area: contentF;
+		background: #CCCCCC;
+		text-align: center;
+	}
+}
+@media screen and (max-width:600px){
+	.rec1 { 
+	display: grid;
+		grid-template-columns: 1fr;
+		grid-auto-rows: 1fr 1fr 3fr 1fr 1fr 1fr;
+		grid-gap: 15px;
+		grid-template-areas:
+			"header"
+			"contentB"
+			"contentD"
+			"contentC"
+			"contentE"
+			"contentF";
+		width: 100%;
+		height: 95%;
+		background: #FFFFFF;
+	}
+	.box1 {
+		grid-area: header;
+		background: #CCCCCC;
+		text-align: center;
+	}
+	.box2 {
+		grid-area: contentB;
+		background: #CCCCCC;
+		text-align: center;
+	}
+	.box3 {
+		grid-area: contentC;
+		background: #CCCCCC;
+		text-align: center;
+	}
+	.box4 {
+		grid-area: contentD;
+		background: #CCCCCC;
+		text-align: center;
+	}
+	.box5 {
+		grid-area: contentE;
+		background: #CCCCCC;
+		text-align: center;
+	}
+	.box6 {
+		grid-area: contentF;
+		background: #CCCCCC;
+		text-align: center;
+
+	}
+}

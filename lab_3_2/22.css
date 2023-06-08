@@ -1,0 +1,52 @@
+n {
+	width: 110px;
+	height: 30px;
+	font-size:30px;
+	top: 50%;
+	position:relative;
+}
+body {
+    height: 95vh;
+}
+@media screen and (min-width:600px){
+	.rec1 {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		grid-template-rows: 100%;
+		grid-gap: 15px;
+		width: 100%;
+		height: 95%;
+		background: #FFFFFF;
+	}
+	.left {
+		background: #CCCCCC;
+		text-align: center;
+		border: 3px solid blue;
+	}
+	.right {
+		background: #CCCCCC;
+		text-align: center;
+		border: 3px solid blue;
+	}
+}
+@media screen and (max-width:600px){
+.rec1 {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 1fr 1fr;
+		grid-gap: 15px;
+		width: 100%;
+		height: 95%;
+		background: #FFFFFF;
+	}
+	.left {
+		background: #CCCCCC;
+		text-align: center;
+		border: 3px solid blue;
+	}
+	.right {
+		background: #CCCCCC;
+		text-align: center;	
+		border: 3px solid blue;
+	}
+}
